@@ -1,0 +1,134 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    position: absolute;
+    background-image: url(./pics/pexels-victor-freitas-841130.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+
+#h2{
+    margin-left: 200px;
+    color: aqua;
+}
+
+#h3{
+    color: cyan;
+}
+
+.info h1{
+    color: rgb(20, 138, 138);
+}
+
+.header{
+    display: flex;
+    height: 60px;
+    width: 1370px;
+}
+
+.left{
+    position: relative;
+    left: 0px;
+    top: 0px;
+    flex-grow: 5;
+    text-align: left;
+}
+
+.left img{
+    height: 68px;
+}
+
+.left div{
+    position: absolute;
+    top: 16px;
+    left: 70px;
+    display: inline-block;
+    color: white;
+    font-size: 25px;
+}
+
+
+.mid{
+    flex-grow: 2;
+    position: relative;
+    text-align: center;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 25px;
+}
+.navbar li:last-child{
+    border-right: none;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+    color:grey;
+    cursor: pointer;
+}
+
+
+.right{
+    position: relative;
+    top: 15px;
+    right: 15px;
+    flex-grow: 3;
+    text-align: right;
+}
+.right input{
+    border: 2px solid gray;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.button{
+    background-color: rgb(46, 45, 45);
+    color: white;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+.button:hover{
+    color:grey;
+    cursor: pointer;   
+}
+
+
+.info{
+    color: white;
+    margin: 80px;
+    padding: 15px;
+    width: 60%;
+}
+
+
+.form-item input{
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.sub-button{
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    margin: 30px;
+    padding: 4px;
+    height: 25px;
+    width: 80px;
+    background-color: aquamarine ;
+    position: relative;
+    left: 147px;
+    bottom: 20px;
+}
